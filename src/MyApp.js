@@ -9,7 +9,7 @@ function MyApp() {
       },
       {
         name: 'Mac',
-        job: 'Bouncer',
+        job: 'Bouncer', 
       },
       {
         name: 'Dee',

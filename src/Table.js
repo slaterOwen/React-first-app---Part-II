@@ -12,7 +12,7 @@ function TableHeader()  {
   );
 }
 
-function TableBody(props) {
+function TableBody(props) { 
   const rows = props.characterData.map((row, index) => {
     return (
       <tr key={index}>
