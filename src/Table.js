@@ -1,5 +1,4 @@
 import React from 'react'
-
 function TableHeader()  {
   return (
     <thead>
@@ -11,8 +10,7 @@ function TableHeader()  {
     </thead>
   );
 }
-
-function TableBody(props) { 
+function TableBody(props) {
   const rows = props.characterData.map((row, index) => {
     return (
       <tr key={index}>
@@ -31,7 +29,6 @@ function TableBody(props) {
        </tbody>
    );
 }
-
 function Table(props) {
     return (
       <table>
@@ -40,6 +37,4 @@ function Table(props) {
       </table>
     )
 }
-
-
 export default Table;
